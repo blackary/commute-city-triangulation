@@ -7,4 +7,3 @@ icon = "🚆"
 path = "pages/doc.py"
 name = "Documentation"
 icon = ":books:"
-is_section = true
