@@ -30,7 +30,7 @@ COLOR_SHARED = "#fc8d59"
 # Streamlit app
 #####
 show_pages_from_config()
-add_page_title(page_title="Home", layout="wide")
+add_page_title(page_title="Home", layout="wide", add_indentation=False)
 
 st.stop()
 
