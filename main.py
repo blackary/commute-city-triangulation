@@ -32,8 +32,6 @@ COLOR_SHARED = "#fc8d59"
 show_pages_from_config()
 add_page_title(page_title="Home", layout="wide", also_indent=False)
 
-st.stop()
-
 feed = load_feed()
 stations = parse_stations(feed)
 
